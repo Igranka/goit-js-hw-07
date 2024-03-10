@@ -38,6 +38,6 @@ const imageElements = images.map(image => {
     return li;
 });
 
-gallery.append(imageElements[0], imageElements[1], imageElements[2]);
+gallery.append(...imageElements);
 
 
