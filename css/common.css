@@ -12,3 +12,231 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+
+ul {
+  list-style-type: none;
+  margin-top: 0;
+}
+
+/* Task 1*/
+.item {
+  background-color: #F6F6FE;
+  border-radius: 8px;
+  padding: 16px;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.item h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.04em;
+  color: #2E2F42;
+}
+
+.item li {
+  /* text */
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #2E2F42;
+
+/* border */
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin-bottom: 8px;
+}
+
+.item li:hover {
+  border-color: #000000;
+}
+
+/* Task 2 */
+.gallery {
+  display: flex;
+  gap: 24px;
+}
+
+.gallery img {
+  width: 360px;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Task 3 */
+#name-input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 8px 16px;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #2E2F42;
+}
+
+#name-input:hover {
+  border-color: #000000;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.04em;
+}
+
+/* Task 4 */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.login-form label {
+  display: flex;
+  flex-direction: column;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+}
+
+.login-form label input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 8px 16px;
+  width: 360px; 
+  height: 40px;
+}
+
+.login-form label input:hover {
+  border-color: #000000;
+}
+
+.login-form button {
+  width: 86px;
+  height: 40px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  background-color: #4E75FF;
+
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+
+.login-form button:hover,
+.login-form button:focus {
+  background-color: #6C8CFF;
+}
+
+/* Task 5 */
+.widget {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+}
+
+.widget button {
+  font-weight: 400;
+  color: #FFFFFF;
+  background-color: #4E75FF;
+  width: 148px;
+  height: 40px;
+  padding: 8x 16px;
+  border-radius: 8px;
+}
+
+.widget button:hover,
+.widget button:focus {
+  background-color: #6C8CFF;
+}
+
+/* Task 6 */
+#controls {
+  padding: 32px;
+  background-color: #F6F6FE;
+
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+#controls input {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: center;
+
+  background-color: transparent;
+  border-radius: 8px;
+  margin-right: 16px;
+}
+
+#controls input:hover {
+  border-color: #000000;
+}
+
+#controls [data-create] {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: center;
+
+  background-color: #4E75FF;
+  color:#FFFFFF; 
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin-right: 16px;
+}
+
+#controls [data-create]:hover,
+#controls [data-create]:focus {
+  background-color: #6C8CFF;
+}
+
+#controls [data-destroy] {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  
+  background-color: #FF4E4E;
+  color: #FFFFFF;
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+
+#controls [data-destroy]:hover,
+#controls [data-destroy]:focus {
+  background-color: #FF7070;
+}
+
+#boxes {
+  display: inline-flex;
+  gap: 10px;
+  background-color: #F6F6FE;
+  padding: 32px;
+  border-radius: 8px;
+}
